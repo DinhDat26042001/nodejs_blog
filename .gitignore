@@ -1,3 +1,4 @@
 .vscode
 
-node.modules/
+src/public/css/
+node_modules/

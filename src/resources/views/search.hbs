@@ -1,0 +1,31 @@
+<div class="mt-4">
+  <form method="POST" >
+    <div class="form-group">
+      <label for="search-input">Từ khóa</label>
+      {{!-- <input type="email" name="email">
+      <input type="text" name="age"> --}}
+      <input
+        type="text"
+        class="form-control"
+        id="search-input"
+        name="q"
+        placeholder="Nhập từ khóa"
+      />
+    
+    </div>
+
+     <div class="form-group">
+      <label for="search-input">Từ khóa</label>
+      {{!-- <input type="email" name="email">
+      <input type="text" name="age"> --}}
+      <select  class="form-control" id="gender-input" name="gender">
+        <option value=""> --Chọn giới tính</option>
+        <option value="male"> Nam</option>
+        <option value="female"> Nữ</option>
+      </select>
+    
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Tìm Kiếm</button>
+  </form>
+</div>
